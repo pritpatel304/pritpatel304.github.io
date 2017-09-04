@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mark Undercoverberg</title>
+<style type="text/css">
+  h1 {text-align:center;
+      font-family: arial;
+      padding-top:20px;}
+  body {text-align:center;
+        font-size: 14px;}
+  span {font-size:50px;
+        font-family:arial;}
+</style>
+</head>
+<body>
+
+<h1>You are Mark Zuckerberg.
+</h1>
+<a>You're in Everytown, USA trying to learn more about real everyday Americans.
+<br>
+<br>
+<a>But you'll have to keep a low profile if you want to get the good stuff outta them.
+<br>
+<br>
+<br>
+<img src="https://i.imgur.com/rE0acKw.gif", style="width:500px;"
+</a>
+<br>
+<br>
+<br>
+<button onclick="newTitle()">Howdy folks, call me...</button>
+<br />
+<br>
+<span id="target"></span>
+<script type="text/javascript">
+var target = document.getElementById('target');
+var titles = [
+    '"Jark Buckerderg"',
+    '"Zark Zuckerzerg"',
+    '"Garf Muckerferg"',
+    '"Park Huckerlerg"',
+    '"Mark Zuckergerg"',
+    '"Cark Fluckerzerg"',
+    '"Harf Gunkerderg"',
+    '"Lark Yunkerplerg"',
+    '"Dark Bunkerdunk"',
+    '"Shark Dunkerderk"',
+    '"Narc Wutterberg"',
+    '"Lark Flusterperg"',
+    '"Zark Plusternerg"',
+    '"Garth Nuckerterf"',
+    '"Farf Mustardtoe"',
+    '"Farf Mustardtoe"',
+    '"Harl Mustermurg"',
+    '"Darb Blundernerg"',
+    '"Yarb Stunkerferg"',
+    '"Glarb Hunkerderg"',
+    '"Gnarls Shunkersturf"',
+    '"Kart Zungaserg"',
+    '"Larg Guntherdurg"',
+    '"Snarf Vundergirl"',
+    '"Garm Wunderblerg"',
+];
+
+function newTitle () {
+    var i = (Math.random() * titles.length) | 0;
+    target.innerText = titles[i];
+}
+
+newTitle();
+</script>
+
+
+
+</body>
+</html>
